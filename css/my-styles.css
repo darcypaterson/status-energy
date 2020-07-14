@@ -1,0 +1,1335 @@
+body {
+
+	font-family: 'open sans', arial, sans-serif;
+  
+
+}
+
+p {
+  line-height: 1.8em;
+}
+
+footer, header {
+
+  background-color: #3a3a3a;
+  color: #b3b3b3;
+}
+
+
+footer {
+
+  padding: 50px 0px 0px;
+}
+
+footer p {
+  color: rgba(179,179,179,0.5);
+}
+
+footer a {
+  color: rgba(179,179,179,0.5);
+}
+
+footer a:hover, footer a:focus {
+  color: #fff;
+}
+
+h2, h3 {
+
+  color: #c30000;
+    font-weight: 300;
+
+
+}
+
+
+a {
+
+  color: rgba(195, 0, 0, 0.8);
+}
+
+a:focus, a:hover {
+  color: rgba(195, 0, 0, 1);
+  text-decoration: none;
+}
+
+footer li.current_page_item {
+
+    background-color: initial;
+
+}
+
+footer li.current_page_item a {
+
+    color: rgba(179,179,179,0.5);
+
+}
+
+footer li.current_page_item a:hover {
+
+    color: white;
+
+}
+
+li.current_page_item {
+
+    background-color: white;
+
+}
+
+li.current_page_item a {
+
+    color: black;
+
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1600px;
+  
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1600px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -800px;   /* 50% */
+  }
+}
+
+
+#footerLeadOut {
+
+background-color: #191919;
+padding: 20px 0px
+
+}
+
+#footerNews {
+
+    margin-left: -40px;
+    line-height: 1.8em;
+
+}
+
+
+#frontPage {
+
+  color: #b3b3b3;
+
+}
+
+
+
+
+/*///////////////////      Header Image and Quotes      ///////////////////*/
+
+
+.wpcf7-text, .wpcf7-textarea  {
+
+    width: 100%;
+
+}
+
+.wpcf7-textarea  { 
+
+    border: 1px solid #cfcfcf;
+
+}
+
+
+
+.wpcf7-submit {
+
+border-radius: 0px;
+
+text-transform: uppercase;
+
+background: #ccc;
+
+color: #565656;
+
+border: 0;
+
+padding: 10px 16px;
+
+font-size: 18px;
+
+}
+
+
+
+
+.sansPadding {
+
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.carQuotes {
+
+    position: absolute; 
+    width: 70%;
+    height: 30em;
+    margin-left: 15%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    
+    
+}
+
+
+
+.quote {
+
+  color: #b3b3b3;
+  font-size: 21px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.25em;
+  margin-top: -10px;
+
+}
+
+.quoteSafety {
+
+  color: #b3b3b3;
+  font-size: 21px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.25em;
+  margin-top: -10px;
+
+}
+
+.quoteCareers {
+
+    color: #b3b3b3;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.25em;
+    margin-top: -10px;
+
+}
+
+
+.serviceImage {
+
+    background: #b3b3b3  url(../images/services-2.jpg) center center;
+    background-size: cover;
+
+}
+
+.safetyImage {
+
+    
+    background: #b3b3b3 url(../images/safety-1.jpg) center center; 
+    background-size: cover;
+        
+}
+
+.careerImage {
+
+    background: #b3b3b3 url(../images/careers-1.jpg) right center;
+    background-size: cover;
+    /*margin-left: -180px;*/
+        
+}
+
+
+.quoteAuthor {
+
+  line-height: 0em;
+  font-size: 14px;
+  font-style: normal;
+}
+
+
+
+/*.quoteImages {
+
+    position: relative;
+    min-height: 20em;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: -46px;
+
+
+}   */
+
+
+
+.openQuote {
+
+  font-weight: 300;
+  line-height: 1.42857143em;
+  padding-top: 0em
+
+}
+
+
+.paraPadding {
+
+  padding-bottom: 4em;
+
+}
+
+
+/*.jumbotron {
+
+  margin-bottom: 0;
+
+}
+
+.jumbotron p {
+
+  padding-top: 10px;
+
+}*/
+
+.margTop {
+
+  margin-top: 90px;
+}
+
+.paddingBottom {
+
+    padding-bottom: 40px;
+}
+
+.homePara {
+
+  font-weight: 200;
+  color: #b3b3b3;
+  font-size: 21px;
+  padding-top: 15px;
+
+}
+
+
+.indexCopy {
+
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-20%, -20%);
+}
+
+
+.homeContainer {
+
+    width: 100%; 
+    height: 100vh; 
+    position: relative; 
+    margin-top: 0; 
+    padding-top: 0; 
+    overflow: hidden;
+    background-color: #cbcbcb;
+    background: url('../images/home-page-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.homeTextContainer {
+
+    position: absolute; 
+    width: 100%; 
+    height: 100vh;  
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    padding: 0 5rem;
+
+}
+
+.homeImage {
+
+    height: 60em;
+    width: auto;
+    margin-left: -700px;
+    margin-top: 63px;
+
+}
+
+
+
+.whyStatusImage {
+
+    background-image: url('../images/admin-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -135px;
+
+}
+
+.headImgContainer {
+
+    width: 100%; 
+    background-color: #c8c8c8; 
+    height: 30em; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden;
+    position: relative;
+
+  
+}
+
+.carImage {
+
+    width: 100%;
+    height: 30em;
+    background: url(../images/careers-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: right center;
+
+}
+
+
+.serImage {
+
+    width: 100%;
+    height: 30em;
+    background: url(../images/services-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+
+
+.safeImage {
+
+    width: 100%;
+    height: 30em;
+    background: url(../images/safety-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+
+
+.whyStatImage {
+
+    width: 100%;
+    height: 30em;
+    background: url(../images/admin-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+
+}
+
+
+.headerImage {
+
+    height: 40em;
+    margin-left: -480px;
+
+}
+
+.headerImageSafety {
+
+    height: 40em;
+    margin-left: 0;
+
+}
+
+
+.headerImageServices {
+
+    height: 47em;
+    margin-left: 642px;
+    margin-top: 56px;
+
+}
+
+.footerLogo {
+
+    width: 80%;
+
+}
+
+   
+  
+.intro {
+
+    margin-top: 72px;
+
+}            
+
+.introImage {
+
+    min-height: 15em;
+    margin-top: 72px;
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.equipImage2 {
+
+      width: 50%;
+
+    }
+
+.equipImage3 {
+
+      margin-top: 15px;
+
+    }
+
+
+
+
+.CTA {
+
+        padding-top: 20px;
+    }
+
+
+.CTAImage {
+
+    background: url('../images/cta-truck2.jpg') center center; 
+    background-repeat: no-repeat; 
+    height: 250px; 
+    border-bottom: 1px solid #fff; 
+    background-size: cover;
+}    
+
+
+
+.widget-title {
+
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+
+aside ul {
+
+    margin-left: -40px;
+    line-height: 1.8em;
+}
+
+/* ///////////// Lists  //////////////  */
+
+
+li {
+  list-style: none;
+}
+
+/* ///////////// Navigation ///////////////   */
+
+nav {
+
+  padding: 50px ;
+}
+
+
+#navbar {
+
+  /*background-color: #e7e7e7;*/
+
+}
+
+nav ul {
+
+    padding-left: 0;
+
+}
+
+nav ul li  {
+
+    margin-top: 0.15em;
+    font-size: 21px;
+    background-color: lightgray;
+    
+
+}
+
+nav ul li:nth-child(1) {
+
+    margin-top: 0;
+
+}
+
+
+
+nav ul li a {
+
+  -webkit-transition: color ease-in 0.2s;
+    -moz-transition: color ease-in 0.2s;
+    -o-transition: color ease-in 0.2s;
+    transition: color ease-in 0.2s;
+
+    color: rgba(0, 0, 0, 0.5);
+    padding: 16px 20px;
+    display: block;
+    width: 100%;
+
+}
+
+nav ul li a:hover {
+
+    color: rgba(0, 0, 0, 1);
+
+}
+
+/* Makes the Menu Horizontal */
+#menu-new-menu li {
+
+    padding: 5px 0px;
+
+}
+
+ul#menu-footer-menu {
+
+    margin-left: -40px;
+    line-height: 1.8em;
+
+}
+
+.navbar-default {
+
+    background-color: #3a3a3a;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    padding: 20px 0px 3px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.navbar-toggle {
+
+    margin-top: 0;
+    margin-bottom: 16px;
+
+}
+
+
+.navbar-right {
+
+    margin-top: 20px;
+
+}
+
+.navbar-brand {
+
+    margin-top: -13px;
+
+}
+
+.navbar-default.affix-top {
+
+	border: none;
+	text-transform: uppercase;
+    background: rgba(0,0,0,0);
+    margin: 0;
+
+}
+
+.navbar-default.affix {
+
+    border: none;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.7);
+    margin: 0;
+
+}
+
+#menu-main-menu-1 {
+
+    padding-left: 0;
+
+}
+
+.container > .navbar-header {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar-fixed-top .navbar-collapse {
+
+    max-height: 80vh;
+
+}
+
+
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+
+
+
+  /* Icon Forward */
+.hvr-icon-forward {
+  display: block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+.hvr-icon-forward:before {
+  content: "\f061";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
+
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+ 
+}
+
+.btn-default, .btn-primary {
+
+    border-radius: 0px;
+    text-transform: uppercase;
+    background: none;
+    color: #b3b3b3;
+ }
+
+.btn-primary {
+
+    border: 1px solid #b3b3b3;
+}
+
+
+.btn-default:hover {
+
+    background: none;
+    color: #fff;
+    border-color: #fff;
+ }
+
+.btn-primary:hover {
+
+    background: none;
+    color: #3a3a3a;
+    border-color: #3a3a3a;
+
+ }
+
+#homeButton {
+
+    margin-top: 2em;
+
+}
+
+
+
+  
+
+
+/* Media Queries */
+
+
+@media screen and (min-width: 768px)  {
+
+
+
+    .carQuotes {
+ 
+        width: 49%; 
+        height: 40em;  
+        margin-left: 26%;  
+        
+    }
+
+
+
+    .carImage {
+
+        height: 40em;
+        background-position: center;
+
+    }
+
+
+    .serImage {
+
+        height: 40em;
+
+    }
+
+
+    .safeImage {
+
+        height: 40em;
+
+    }
+
+
+    .whyStatImage {
+
+        height: 40em;
+
+    }
+
+
+
+
+
+
+    .homeImage {
+
+        height: 87em;
+        margin-left: -900px;
+        margin-top: 71px;
+
+    }
+
+    li.current_page_item {
+
+        background-color: initial;
+        
+    }
+
+
+
+    li.current_page_item a {
+
+        color: white;
+
+    }
+
+
+    .indexCopy {
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    
+
+    .introImage {
+
+        min-height: 20em;
+        
+    }
+
+    .whyStatusImage {
+
+    
+        margin-left: 0;
+
+    }
+
+
+    /*///////////////////      Header Image and Quotes      ///////////////////*/
+
+    .quote {
+
+      color: #b3b3b3;
+      font-size: 21px;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.25em;
+      padding: 1em 0em 0em;
+      margin-top: 0px;
+
+    }
+
+    .quoteSafety {
+
+      color: #b3b3b3;
+      font-size: 21px;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.25em;
+      /*padding: 2em 0em 0em;*/
+      margin-top: 0px;
+
+    }
+
+    .quoteCareers {
+
+        color: #b3b3b3;
+        font-size: 21px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 1.25em;
+        padding: 2em 0em 0em;
+        margin-top: 0px;
+        
+
+    }
+
+
+    .serviceImage {
+
+        background: #b3b3b3  url(../images/services-2.jpg) center center;
+        background-size: cover;
+        margin-top: -15px;
+        min-height: 24em;
+
+    }
+
+    .safetyImage {
+
+        
+        background: #b3b3b3 url(../images/safety-1.jpg) center center; 
+        background-size: cover;
+        margin-top: -15px;
+        min-height: 24em;
+    }
+
+    .careerImage {
+
+        background: #b3b3b3 url(../images/careers-1.jpg) center center;
+        background-size: cover;
+        margin-top: -15px;
+        min-height: 24em;
+    }
+
+
+    .quoteAuthor {
+
+      line-height: 0em;
+      font-size: 14px;
+      font-style: normal;
+    }
+
+
+    .openQuote {
+
+      font-weight: 300;
+      line-height: 1.42857143em;
+      padding-top: 2em
+
+    }
+
+    .CTA {
+
+        padding-top: 20px;
+    }
+
+    #navbar {
+
+        background-color: initial;
+
+    }
+
+    .navbar {
+
+        min-height: 0;
+        margin-bottom: 0;
+
+    }
+
+
+    nav ul {
+
+        padding-left: initial;
+
+    }
+
+
+    nav ul li { 
+
+        display: inline-block;
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: initial;
+       
+
+    }
+
+    nav ul li a {
+
+        
+        color: rgba(255, 255, 255, 0.5);
+        padding: 10px 10px;
+
+    }
+
+    nav ul li a:hover {
+
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+
+    #menu-new-menu li {
+
+        display: inline-block;
+        padding: 3px 0px 8px 0px;
+
+    }
+
+    .navbar-right {
+    
+        margin-top: 0;
+
+    }
+
+    .footerLogo {
+
+        width: 60%;
+
+    }
+
+    .equipImage2 {
+
+      width: 100%;
+
+    }
+
+    
+    .equipImage3 {
+
+      margin-top: 0px;
+
+    }
+
+
+    .headerImage {
+
+        height: 40em;
+        margin-left: 0;
+
+    }
+
+    .headerImageServices {
+
+        
+        margin-left: 414px;
+        
+
+    }
+
+
+    .headImgContainer {
+
+        height: 40em; 
+
+    }
+
+
+}
+
+
+/* End 768px media query */
+
+
+
+
+@media screen and (min-width: 992px)   {
+
+
+    .homeImage {
+
+        height: 92em;
+        margin-left: -741px;
+        margin-top: 69px;
+
+    }
+
+    .indexCopy {
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    .margTop {
+
+      margin-top: inherit;
+    }
+
+    .introImage {
+         
+        min-height: 40em;
+        
+    }
+
+    .openQuote {
+
+      font-weight: 300;
+      line-height: 1.42857143em;
+      padding-top: 2em
+
+    }
+
+    
+
+
+
+/*///////////////////      Header Image and Quotes      ///////////////////*/
+
+
+
+
+    .quote {
+
+      color: #b3b3b3;
+      font-size: 28px;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.25em;
+      /*padding: 4em 0em 0em;*/
+      margin-top: 0px;
+
+    }
+
+    .quoteSafety {
+
+      color: #b3b3b3;
+      font-size: 28px;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.25em;
+      /*padding: 4em 0em 0em;*/
+      margin-top: 0px;
+
+    }
+
+    .quoteCareers {
+
+        color: #b3b3b3;
+        font-size: 28px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 1.25em;
+        /*padding: 4em 0em 0em;*/
+        margin-top: 0px;
+
+    }
+
+
+    .serviceImage {
+
+        background: #b3b3b3  url(../images/services-2.jpg) center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 500px;
+
+    }
+
+    .safetyImage {
+
+        
+        background: #b3b3b3 url(../images/safety-1.jpg) center center; 
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 500px;
+
+    }
+
+    .careerImage {
+
+        background: #b3b3b3 url(../images/careers-1.jpg) center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 500px;
+
+    }
+
+
+    .quoteAuthor {
+
+      line-height: 0em;
+      font-size: 21px;
+      font-style: normal;
+
+    }
+
+
+    .CTA {
+
+        padding-top: 40px;
+
+    }
+
+    .headerImageSafety {
+
+        height: 61em;
+        margin-top: -280px;
+
+    }
+
+    .headerImageServices {
+
+        
+        margin-left: -40px;
+        
+
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+
+
+    .homeImage {
+
+        height: 67em;
+        margin-left: -12px;
+        margin-top: 69px;
+
+    }
+
+    .headerImageServices {
+
+        
+        height: 54em;
+        margin-top: 30px;
+        margin-left: 170px;
+        
+
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .homeImage {
+
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+
+    }
+
+
+    .headerImageServices {
+
+        
+        height: 58em;
+        margin-top: 30px;
+        margin-left: 0px;
+        
+
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1730px) {
+
+    .headerImage {
+
+        height: 55em;
+
+    }
+
+    .headerImageSafety {
+
+        height: 61em;
+        margin-top: -280px;
+
+    }
+
+    .headerImageServices {
+
+        
+        margin-left: 0px;
+        
+
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 2390px) {
+
+/*    .headerImage {
+
+        height: 70em;
+        margin-bottom: 12rem;
+
+    }
+
+    .headerImageSafety {
+
+        height: 95em;
+        margin-top: -680px;
+
+    }
+
+
+    .headerImageServices {
+
+        
+        margin-left: 0px;
+        
+
+    }*/
+
+}
+
+
+
